@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color:#FCF6F5;
+  background-size: cover;
+}
+
+@media (min-width: 673px) {
+  body {
+    background-color: #2BAE66;
+  }
+}
+/*사용 폰트*/
+
+@font-face {
+  font-family: 'MinSans-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MinSans-Light';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*하단 영역 작업 */
+#wrap {
+  min-height: 100vh;
+  position: relative;
+  width: 100%;
+}
+
+.footer {
+  font-family:'MinSans-Light';
+  font-size: 10px;
+  width: 100%;
+  height: 100px;
+  bottom: 0px;
+  position: absolute;
+  text-align: center;
+}
+
+@media (min-width: 673px) {
+  footer {
+    display: none;
+  }
+}
+section {
+  padding-bottom: 110px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/*인트로 이미지*/
+
+.img {
+  border: solid #2BAE66 4px;
+  border-radius:70%;
+  float: right;
+  margin-top: 50px;
+  margin-right: 20px;
+  
+}
+
+
+@media (min-width: 673px) {
+  .img {
+    display: none;
+  }
+}
+/* h1 영역 */
+
+#h1 {
+  font-family: 'MinSans-Bold';
+  font-size: 55px;
+  color:#2BAE66;
+  margin-top: 60px;
+  margin-left: 50px;
+  float: left;
+
+  animation: fadein 4s;
+  -moz-animation: fadein 4s;
+  -webkit-animation: fadein 4s;
+  -o-animation: fadein 4s;
+  
+}
+
+@keyframes fadein {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+@-moz-keyframes fadein {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+@-o-keyframes fadein {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+
+@media (min-width: 673px) {
+  #h1 {
+    display: none;
+  }
+}
+
+
+
+#h11 {
+  font-family: 'MinSans-Bold';
+  font-size: 55px;
+  color:#2BAE66;
+  margin-left: 50px;
+  float: left;
+  animation: fadein 5s;
+  -moz-animation: fadein 5s;
+  -webkit-animation: fadein 5s;
+  -o-animation: fadein 5s;
+}
+
+@keyframes fadein {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+@-moz-keyframes fadein {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+@-o-keyframes fadein {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+@media (min-width: 673px) {
+  #h11 {
+    display: none;
+  }
+}
+
+/* h3 영역 */
+
+h3 {
+  font-family: 'MinSans-Light';
+  font-size: 18px;
+  color: lightgray;
+  margin-left: 50px;
+  line-height: 50px;
+  float: left;
+
+  animation: fadein 7s;
+  -moz-animation: fadein 7s;
+  -webkit-animation: fadein 7s;
+  -o-animation: fadein 7s;
+  
+}
+
+@keyframes fadein {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+@-moz-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+@-o-keyframes fadein {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+@media (min-width: 673px) {
+  h3 {
+    display: none;
+  }
+}
+
+/* big screen */
+
+.bigScreen_text {
+  font-family: 'MinSans-Bold';
+  font-size: 38px;
+  color:#FCF6F5;
+  position: absolute;
+  top: 45%;
+  left: 30%;
+  
+ 
+}
+
+@media (max-width: 673px) {
+  .bigScreen_text{
+    display: none;
+  }
+}
+
